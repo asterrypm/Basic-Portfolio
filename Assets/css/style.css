@@ -16,6 +16,7 @@ body { background-color: yellow;
 #headshot {
 	height: 25%;
 	width: 25%;
+	float: left;
 }
 
 nav ul li {
@@ -35,10 +36,12 @@ nav ul li a {
 header {
 	background-color: #fff;
 	border-bottom: 3px solid gray;
+	margin-bottom: 20px;
 }
 
 #header_name {
 	background-color: #4aaaa5;
+	font-family: 'Georgia';
 	float: left;
 	padding: 20px;
 	color: white;
@@ -54,22 +57,50 @@ footer {
 	background-color: #777;
 	text-align: center;
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
-
+.main-content {
+	width: 650px;
 	float: left;
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+
 }
 
+.main-header{
+	font-size:;
+	font-family:;
+	color: #4aaaa5;
+	text-align: left;
+	padding: 20px;
+	;
+}
 
-.social images {
+.subheader{
+	font-family: 
+	font-size:
+	color:;
+	text-align: left;
+}
+.social-images {
 	height: 60px;
-	weight: 60px;
+	width: 60px;
 }
 
 }
 aside {
 	float: right;
-	width: 270px;
-
+	
 }
 
+.connect{
+	float: right;
+	width: 270px;
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+}
