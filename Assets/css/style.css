@@ -2,7 +2,8 @@
 	box-sizing: border-box;
 }
 
-body { background-color: yellow;
+body { 
+	url(light_grey.png);
 
  }
 
@@ -14,22 +15,25 @@ body { background-color: yellow;
 }
 
 #headshot {
-	height: 25%;
-	width: 25%;
+	height: 30%;
+	width: 30%;
 	float: left;
 }
 
 nav ul li {
 	display: inline;
 	float: right;
-	font-size: 14px;
-	padding: 23px 10px;
-
+	font-size: 20px;
+	padding: 23px 15px 5px 15px;
+	
 }
 
 nav ul li a {
 	text-decoration: none;
-	color: #777;
+	color: #777777;
+
+a:hover  {
+	color: #4aaaa5;
 }
 
 
@@ -37,24 +41,25 @@ header {
 	background-color: #fff;
 	border-bottom: 3px solid gray;
 	margin-bottom: 20px;
+	border-color: #cccccc;
 }
 
 #header_name {
 	background-color: #4aaaa5;
-	font-family: 'Georgia';
+	font-family: "Georgia",Times, Times New Roman, serif;
 	float: left;
 	padding: 20px;
 	color: white;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 40px;
 
 }
 
 footer {
 	padding: 23px 0;
-	font-size: 14px;
+	font-size: 16px;
 	border-top: 3px solid #4aaaa5;
-	background-color: #777;
+	background-color: #666666;
 	text-align: center;
 	clear: both;
 	position: fixed;
@@ -65,30 +70,39 @@ footer {
 .main-content {
 	width: 650px;
 	float: left;
-	background-color: white;
+	background-color: #ffffff;
 	text-align: center;
 	padding: 15px;
+	border-color: #dddddd;
+	color: #777777;
+	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
 
 }
 
 .main-header{
-	font-size:;
-	font-family:;
+	font-size: 30px;
+	font-family: "Georgia",Times, Times New Roman, serif;
 	color: #4aaaa5;
 	text-align: left;
-	padding: 20px;
+	padding: 20px 20px 20px 5px;
+	background-color: #ffffff;
+	font-weight: bold;
 	;
 }
 
 .subheader{
-	font-family: 
-	font-size:
-	color:;
-	text-align: left;
+	font-family: "Georgia",Times, Times New Roman, serif; 
+	font-size: 18px;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	text-align: center;
+	font-weight: bold;
 }
 .social-images {
-	height: 60px;
-	width: 60px;
+	height: 55px;
+	width: 55px;
+	padding: 2px;
 }
 
 }
@@ -102,5 +116,5 @@ aside {
 	width: 270px;
 	background-color: white;
 	text-align: center;
-	padding: 15px;
+	padding: 20px 10px 20px 10px;
 }
