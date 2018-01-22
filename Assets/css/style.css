@@ -4,8 +4,6 @@
 
 body { 
 
-	/* background-image: url(retro_intro.png) */
-
 	background-image: url("../images/retro_intro.png")
 
  }
@@ -77,12 +75,13 @@ footer {
 	background-color: #ffffff;
 	text-align: center;
 	padding: 15px;
-	border-color: #dddddd;
+	border-color: #dddddd solid;
 	color: #777777;
 	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 
 }
+
 
 .main-header{
 	font-size: 30px;
@@ -112,7 +111,7 @@ footer {
 }
 aside {
 	float: right;
-	
+
 }
 
 .connect{
@@ -121,4 +120,56 @@ aside {
 	background-color: white;
 	text-align: center;
 	padding: 20px 10px 20px 10px;
+	
+}
+
+form{
+	text-align: left;
+	
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+  	border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    font-size: 16px;
+   
+}
+  
+input[type=submit] {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    font-size: 18px
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
 }
