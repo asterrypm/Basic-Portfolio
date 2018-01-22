@@ -78,10 +78,16 @@ footer {
 	border-color: #dddddd solid;
 	color: #777777;
 	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 
 }
 
+#zig {
+	font-style: italic;
+	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+
+}
 
 .main-header{
 	font-size: 30px;
@@ -183,7 +189,7 @@ div {
 
 .port-img {
 	width: 270px;
-	height: 200px;
+	height: 150px;
 	
 }
 .right-col {
@@ -199,6 +205,6 @@ div {
 	width: 270px;
 	padding: 10px 0;
 	position: absolute;
-	bottom: 18px;
+	bottom: 20px;
 
 }
