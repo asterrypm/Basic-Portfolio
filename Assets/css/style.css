@@ -167,8 +167,6 @@ input[type=submit]:hover {
 }
 
 div {
-    background-color: #ffffff;
-    padding: 20px;
     font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 }
@@ -201,6 +199,6 @@ div {
 	width: 270px;
 	padding: 10px 0;
 	position: absolute;
-	bottom: 20px;
+	bottom: 18px;
 
 }
